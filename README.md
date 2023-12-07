@@ -11,6 +11,7 @@ Illumina paired end fastq.gz files are first merged with PEAR (Zhang et al., Bio
 bowtie2-build ref1.fa ref1 \
 (bowtie2 -x ref1 -U 1_joined.txt.assembled.fastq -S 2_aligned.txt) 2>2_alignmentsummary.txt 
 
+
 Resulting sam files (as .txt files) are translated and processed using custom R scripts: 
 
 1_extract_and_sum_variants.R filters and counts sequences.\
