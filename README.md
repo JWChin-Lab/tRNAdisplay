@@ -2,9 +2,7 @@
 
 Scripts associated for analysis of Illumina NGS data from tRNA display experiments, associated with Dunkelmann, Piedrafita et al., Nature 2023).  
 
-Illumina paired end fastq.gz files are first merged with PEAR (Zhang et al., Bioinformatics 2014) and aligned with BowTie2 (Langmead et al. Nature Methods 2012).
-
-
+Illumina paired end fastq.gz files are first merged with PEAR (Zhang et al., Bioinformatics 2014) and aligned with BowTie2 (Langmead et al., Nature Methods 2012).
 
 Resulting sam files (as .txt files) are translated and processed using custom R scripts:
 1_
