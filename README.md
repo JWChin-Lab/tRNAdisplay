@@ -13,6 +13,7 @@ Resulting sam files (as .txt files) are translated and processed using custom R 
 
 1_extract_and_sum_variants.R filters and counts sequences.\
 2_translate_variants.R translates and yields residue combinations at targeted positions. \
-3_tRNA_display_analysis.R plots spindle plots and produces gated hit lists.  
+3_tRNA_display_analysis.R plots spindle plots and produces gated hit lists. Requires testthat, ggplot2, overlapping and factoextra
+
 
 
